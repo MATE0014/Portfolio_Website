@@ -36,7 +36,7 @@ const about = {
     },
     {
       fieldName: "Freelance",
-      fieldValue: "Avalible",
+      fieldValue: "Available",
     },
     {
       fieldName: "Languages",
