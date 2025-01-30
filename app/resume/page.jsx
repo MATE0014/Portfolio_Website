@@ -10,8 +10,8 @@ import {
 
 // about me data
 const about = {
-  title: "About me",
-  description: "this is a description",
+  title: "About Me",
+  description: "Learn More About Me?",
   info: [
     {
       fieldName: "Name",
@@ -47,8 +47,8 @@ const about = {
 
 //my exp data
 const experience = {
-  title: "My experience",
-  description: "this is a description of exp",
+  title: "My Experience",
+  description: "The Experience I've Earned As A Web Developer",
   items: [
     {
       company: "Zircon Club PCE",
@@ -65,8 +65,8 @@ const experience = {
 
 //my education data
 const education = {
-  title: "My education",
-  description: "this is a description of my edu",
+  title: "My Education",
+  description: "All Of My Education Details Can Be Found Below",
   items: [
     {
       institution: "Poornima College Of Engineering",
@@ -104,7 +104,7 @@ const education = {
 //my skills data
 const skills = {
   title: "My Skills",
-  description: "These are my skills",
+  description: "The Technologies I'm Skilled At",
   skillList: [
     {
       icon: <FaHtml5 />,
