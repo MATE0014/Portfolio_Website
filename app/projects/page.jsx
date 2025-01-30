@@ -72,8 +72,8 @@ const projects = [
       "My Portfolio was built so that I can showcase my skills and reach out to others.",
     stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }],
     image: "/assets/work/project4.png",
-    live: "",
-    github: "",
+    live: "portfolio-moxitrewar.vercel.app",
+    github: "https://github.com/MATE0014/Portfolio_Website",
   },
 ];
 
