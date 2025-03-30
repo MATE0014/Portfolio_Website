@@ -53,7 +53,7 @@ const experience = {
     {
       company: "Zircon Club PCE",
       position: "Team Leader - Web Development",
-      duration: "August 2024 - Present",
+      duration: "August 2024 - February 2025",
     },
     {
       company: "CYNBIT Technologies",
