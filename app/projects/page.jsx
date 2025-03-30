@@ -103,8 +103,11 @@ const Projects = () => {
 
               {/* project category */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} Project
+                {project.title}
               </h2>
+
+              {/* project cat */}
+              <p className="text-white/90">Category - {project.category}</p>
 
               {/* project description */}
               <p className="text-white/60">{project.description}</p>
