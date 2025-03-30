@@ -27,9 +27,6 @@ const projects = [
     title: "ShelfSeeker",
     description: "ShelfSeeker Is An Online Website For Searching Books!",
     stack: [
-      { name: "HTML 5" },
-      { name: "CSS 3" },
-      { name: "Javascript" },
       { name: "React.js" },
     ],
     image: "/assets/work/project1.png",
@@ -43,8 +40,6 @@ const projects = [
     description:
       "AADHAR 13 was built to showcase Zircon Club PCE's tech event AADHAR and take in registrations for the participations.",
     stack: [
-      { name: "CSS 3" },
-      { name: "Javascript" },
       { name: "React.js" },
       { name: "Express.js" },
       { name: "MongoDB" },
@@ -55,14 +50,14 @@ const projects = [
   },
   {
     num: "03",
-    category: "Backend",
-    title: "AADHAR 13 Registrations",
+    category: "FrontEnd",
+    title: "Birthday Wishing",
     description:
-      "AADHAR 13 was built to showcase Zircon Club PCE's tech event AADHAR and take in registrations for the participations.",
-    stack: [{ name: "Express.js" }, { name: "MongoDB" }],
+      "Built From Scratch Without Any Designes, Used For Wishing Birthdays To My Friends!",
+    stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }],
     image: "/assets/work/project3.png",
     live: "",
-    github: "",
+    github: "https://github.com/MATE0014/HappyBirthday",
   },
   {
     num: "04",
