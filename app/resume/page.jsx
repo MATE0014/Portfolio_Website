@@ -6,6 +6,7 @@ import {
   SiNextdotjs,
   SiExpress,
   SiMongodb,
+  SiGithub,
 } from "react-icons/si";
 
 // about me data
@@ -142,6 +143,10 @@ const skills = {
       icon: <SiMongodb />,
       name: "MongoDB",
     },
+    {
+      icon: <SiGithub />,
+      name: "Github",
+    }
   ],
 };
 
