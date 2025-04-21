@@ -254,20 +254,13 @@ const Resume = () => {
                   <ul className="grid grid-cols-2 sm:grid-cols-3 gap-4 mr-4 md:grid-cols-4 xl:gap-[30px] ">
                     {skills.skillList.map((skill, index) => {
                       return (
-                        <li key={index}>
-                          <TooltipProvider delayDuration={100}>
-                            <Tooltip>
-                              <TooltipTrigger className="w-full h-[160px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                                <div className="text-6xl group-hover:text-accent transition-all duration-300 ">
-                                  {skill.icon}
-                                </div>
-                              </TooltipTrigger>
-                              <TooltipContent>
-                                <p>{skill.name}</p>
-                              </TooltipContent>
-                            </Tooltip>
-                          </TooltipProvider>
-                        </li>
+                       <li
+                        key={index}
+                        className="bg-[#232329] rounded-xl flex flex-col items-center justify-center h-[160px] gap-2"
+                        >
+                        <div className="text-6xl text-accent">{skill.icon}</div>
+                        <p className="text-white text-sm">{skill.name}</p>
+                      </li>
                       );
                     })}
                   </ul>
